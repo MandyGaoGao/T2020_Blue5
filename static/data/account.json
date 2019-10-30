@@ -1,0 +1,26 @@
+{"credit":{"1":{
+    "accountId": 120,
+    "outstandingAmount": "322.23",
+    "datePayable": "2019-10-25T00:00:00.000+0000",
+    "currency": "S$",
+    "displayName": "VISA Platinum",
+    "cardNumber": "1234-2468-3692-4826"
+}
+}
+,
+"debit":
+{"1":
+{
+        "accountId": 10,
+        "type": "SAVINGS",
+        "displayName": "POSB SAVINGS ACCOUNT",
+        "accountNumber": "588967151"
+    },
+"2":
+    {
+        "accountId": 120,
+        "displayName": "VISA Platinum",
+        "cardNumber": "1234-2468-3692-4826"
+    }
+}
+}
