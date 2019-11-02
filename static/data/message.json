@@ -1,0 +1,21 @@
+{"message":[
+    {
+        "messageId": 1,
+        "dateCreated": "2018-12-20T08:00:00.000+0000",
+        "summary": "Grab discount with PayLah!",
+        "type": "Savings"
+    },
+    {
+        "messageId": 2,
+        "dateCreated": "2018-12-20T08:06:40.000+0000",
+        "summary": "GoJek voucher with DBS card",
+        "type": "Savings"
+    },
+    {
+        "messageId": 3,
+        "dateCreated": "2018-12-20T08:26:40.000+0000",
+        "summary": "Cashback with DBS new credit card",
+        "type": "Credit Cards"
+    }
+]
+}

@@ -1,0 +1,37 @@
+
+
+
+
+{"marytan":{
+    "userName": "marytan",
+    "customerId": "2",
+    "gender": "Female",
+    "firstName": "Hui Shan",
+    "lastName": "Tan",
+    "lastLogIn": "2019-01-29T18:00:00.000+0000",
+    "dateOfBirth": "1992-03-25T00:00:00.000+0000",
+    "accountId": 10,
+     "type": "SAVINGS",
+     "displayName": "POSB SAVINGS ACCOUNT",
+     "accountNumber": "588967151"
+
+},
+"limzeyang":{
+    "userName": "limzeyang",
+    "customerId": "1",
+    "gender": "Male",
+    "firstName": "Ze Yang",
+    "lastName": "Lim",
+    "lastLogIn": "2019-01-27T14:00:00.000+0000",
+    "dateOfBirth": "2000-02-01T00:00:00.000+0000"
+	},	
+"prasannaghali":{
+"userName": "prasannaghali",
+    "customerId": "3",
+    "gender": "Male",
+    "firstName": "Prasanna",
+    "lastName": "Ghali",
+    "lastLogIn": "2019-10-10T10:00:00.000+0000",
+    "dateOfBirth": "1955-04-01T00:00:00.000+0000"
+	}
+}

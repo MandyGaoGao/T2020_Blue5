@@ -1,0 +1,28 @@
+{"market":[{
+    "dateCreated": "2018-12-20T08:26:40.000+0000",
+    "summary": "Cashback with DBS new credit card",
+    "subject": "Dbs new creditcard - DBS Swipe",
+    "body": "Enjoy up to 7% cashback, when you pay with DBS Swipe! T&Cs apply. Till 31 Jul 2019",
+    "type": "Credit Cards"
+}],
+"personal":[
+    {
+        "messageId": 10000,
+        "dateCreated": "2019-01-20T06:00:00.000+0000",
+        "topic": "General",
+        "subject": "Enquiry",
+        "body": "Hi, I would like to check if there are any recommendation for me to earn more interest? Regards, Lim Ze Yang",
+        "isRead": true
+    },
+    {
+        "messageId": 10002,
+        "dateCreated": "2019-01-21T06:11:00.000+0000",
+        "topic": "General",
+        "subject": "Enquiry",
+        "body": "Dear Mr Lim, we will be assigning a RM to get in touch with you for actions that you can take. Thank you for banking with DBS and we hope to hear from you again!",
+        "isRead": false
+    }
+
+]
+}
+

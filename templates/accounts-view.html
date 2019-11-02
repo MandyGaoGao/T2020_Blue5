@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <title>View Accounts</title>
+    <link rel="stylesheet" href="./../css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="./../css/styles.css">
+</head>
+
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Expense Manager</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav" style="float:right">
+                <li id="dump-sample"><a style="color: rgba(255, 165, 0, 0.83);">Test Data</a></li>
+                <li id="clear-old-data"><a style="color: #fcf8e3;">Clear Data</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+<!-- Main Area -->
+<div class="container-fluid" id="app-space">
+    <div class="row content-area">
+        <div class="col-sm-2 sidebar-area">
+            <div class="sidebar-nav">
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <span class="visible-xs navbar-brand">Sidebar menu</span>
+                    </div>
+                    <div class="navbar-collapse collapse sidebar-navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/add">Enter Expense</a></li>
+                            <li><a href="/trans">View Transactions</a></li>
+                            <li class="active"><a href="#">View Accounts</a></li>
+                            <li><a href="/massege-view">View Messages</a></li>
+                            <li><a href="/filter">Filter Transactions</a></li>
+                            <li><a href="/stats">View Statistics</a></li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-10">
+            <!-- --------------------------------- -->
+            <nav class="navbar navbar-light bg-light" id="daily-section-header">
+                <span class="h2" class="navbar-brand mb-0">View Accounts </span>
+            </nav>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1">Select Accounts</span>
+                <input type="text" class="form-control datepicker" id="dailyView-date" placeholder="Credit/ Deposit ..." />
+                <button type="button" class="btn btn-primary" id="search-day-expense">Go</button>
+            </div>
+            <!-- --------------------------------- -->
+            <div id="dailyExpenseDisplaySection">
+                <div id="dayExpense">
+                    <table class="table table-sm rwd-table" id="dayExpenseTable">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+			    <th>user name</th>
+                            <th>customer ID</th>
+                            <th>gender</th>
+                            <th>firstName</th>
+                            <th>last namer</th>
+                            <th>lastlogin</th>
+			    <th>bday</th>
+			    <th>acctID</th>
+			    <th>type</th>
+
+			    <th>displayname</th>
+			    <th>acctNum</th>
+			 
+                        </tr>
+                        </thead>
+                        <tbody>
+				<th>#</th>
+				<th>{{t1}}</th>
+				<th>{{t2}}</th>
+				<th>{{t3}}</th>
+                               <th>{{t4}}</th>
+                                <th>{{t5}}</th>
+                                <th>{{t6}}</th>
+                      		<th>{{t7}}</th>
+                                <th>{{t8}}</th>
+                                <th>{{t9}}</th>
+				<th>{{t10}}</th>
+                                <th>{{t11}}</th>
+                              
+			</tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./../js/jquery.min.js"></script>
+<script src="./../js/bootstrap.js"></script>
+<script src="./../node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<script type="text/javascript" src="./../js/main.js"></script>
+<script type="text/javascript" src="./../js/dailyView.js"></script>
+</body>
+
+</html>
